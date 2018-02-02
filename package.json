@@ -31,10 +31,12 @@
     "webpack-dev-server": "2.9.4"
   },
   "dependencies": {
+    "antd": "^3.1.6",
     "bootstrap": "4.0.0-beta.2",
     "chart.js": "2.7.1",
     "font-awesome": "4.7.0",
     "history": "4.7.2",
+    "moment": "^2.20.1",
     "prop-types": "^15.6.0",
     "react": "16.1.1",
     "react-chartjs-2": "2.6.4",
@@ -45,7 +47,7 @@
     "simple-line-icons": "2.4.1"
   },
   "scripts": {
-    "dev":  "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "start": "webpack-dev-server --progress --colors --inline --env.dev",
     "build": "webpack -p --progress --env.prod",
     "clean": "rimraf ./build"

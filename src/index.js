@@ -8,6 +8,11 @@ import AuthRoute from './AuthRoute';
 import 'font-awesome/css/font-awesome.min.css';
 // Import Simple Line Icons Set
 import 'simple-line-icons/css/simple-line-icons.css';
+// Import ant design
+import 'antd/dist/antd.css';
+
+import 'react-datez/dist/css/react-datez.css'
+
 // Import Main styles for this application
 import '../scss/style.scss'
 // Temp fix for reactstrap
@@ -21,6 +26,11 @@ import Login from './views/Pages/Login/'
 import Register from './views/Pages/Register/'
 import Page404 from './views/Pages/Page404/'
 import Page500 from './views/Pages/Page500/'
+
+// international
+import moment from 'moment';
+import 'moment/locale/zh-cn';
+moment.locale('zh-cn');
 
 ReactDOM.render((
     <HashRouter>
