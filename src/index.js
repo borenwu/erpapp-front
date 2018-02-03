@@ -11,7 +11,6 @@ import 'simple-line-icons/css/simple-line-icons.css';
 // Import ant design
 import 'antd/dist/antd.css';
 
-import 'react-datez/dist/css/react-datez.css'
 
 // Import Main styles for this application
 import '../scss/style.scss'
